@@ -58,13 +58,13 @@ public class SupportedSSL {
                 .build());
         clOptions.addOption(Option.builder("p")
                 .longOpt("protocols")
-                .desc("check if protocol(s) available (comma-separated list)")
+                .desc("check if protocol(s) are available (comma-separated list)")
                 .hasArg()
                 .argName("protocols")
                 .build());
         clOptions.addOption(Option.builder("c")
                 .longOpt("ciphers")
-                .desc("check if cipher(s) available (comma-separated list)")
+                .desc("check if cipher(s) are available (comma-separated list)")
                 .hasArg()
                 .argName("ciphers")
                 .build());
